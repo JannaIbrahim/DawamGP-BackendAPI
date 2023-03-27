@@ -11,17 +11,17 @@ namespace Dawam.DAL.Entities
         public string WaqfName { get; set; }
         public string FounderName { get; set; }
         public int DocumentNumber { get; set; }
-        public DateTime EstablishmentDate { get; set; }
-        public DateTime EstablishmentDateH { get; set; }
+        public DateTime? EstablishmentDate { get; set; }
+        public DateTime? EstablishmentDateH { get; set; }
         public string WaqfDescription { get; set; }
         public Country WaqfCountry { get; set; }
-        public int CountryId { get; set; }
+        public int? CountryId { get; set; }
         public City WaqfCity { get; set; }
-        public int CityId { get; set; }
+        public int? CityId { get; set; }
         public WaqfType WaqfType { get; set; }
-        public int TypeId { get; set; }
+        public int? TypeId { get; set; }
         public WaqfActivity WaqfActivity { get; set; }
-        public int ActivityId { get; set; }
+        public int? ActivityId { get; set; }
         public string ImageUrl { get; set; }
         public string DocumentUrl { get; set; }
         public WaqfStatus WaqfStatus { get; set; }
@@ -30,8 +30,8 @@ namespace Dawam.DAL.Entities
         public int InsUserId { get; set; }
         public DateTime InsDate { get; set; }
         public User ConfirmUser { get; set; }
-        public int ConfirmUserId { get; set; }
-        public DateTime ConfirmDate { get; set; }
+        public int? ConfirmUserId { get; set; }
+        public DateTime? ConfirmDate { get; set; }
 
 
     }

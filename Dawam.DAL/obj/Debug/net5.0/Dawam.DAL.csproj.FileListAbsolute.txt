@@ -1,0 +1,12 @@
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\bin\Debug\net5.0\Dawam.DAL.deps.json
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\bin\Debug\net5.0\Dawam.DAL.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\bin\Debug\net5.0\Dawam.DAL.pdb
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\Dawam.DAL.csproj.AssemblyReference.cache
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\Dawam.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\Dawam.DAL.AssemblyInfoInputs.cache
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\Dawam.DAL.AssemblyInfo.cs
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\Dawam.DAL.csproj.CoreCompileInputs.cache
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\Dawam.DAL.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\refint\Dawam.DAL.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\Dawam.DAL.pdb
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.DAL\obj\Debug\net5.0\ref\Dawam.DAL.dll
