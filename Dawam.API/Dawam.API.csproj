@@ -17,4 +17,8 @@
     <ProjectReference Include="..\Dawam.BLL\Dawam.BLL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>
