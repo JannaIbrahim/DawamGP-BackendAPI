@@ -31,5 +31,17 @@ namespace Dawam.API.Controllers
             var country = await _countryRepo.GetByIdAsync(id);
             return Ok(country);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddActivity(string country)
+        {
+            var newCountry = new Country() { Name = country};
+            
+            var changes = await _countryRepo.Add(newCountry);
+            if (changes > 0)
+                return Ok();
+            return BadRequest();
+
+        }
     }
 }

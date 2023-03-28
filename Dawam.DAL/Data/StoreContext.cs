@@ -27,6 +27,12 @@ namespace Dawam.DAL.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+
+            // Country & city configurations
+            modelBuilder.Entity<Country>().Property(c => c.Name).IsRequired();
+            modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique();
+            modelBuilder.Entity<City>().Property(c => c.Name).IsRequired();
         }
 
 

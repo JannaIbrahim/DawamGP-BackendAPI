@@ -56,6 +56,17 @@ namespace Dawam.API.Controllers
             return Ok(activities);
         }
 
+        [HttpPost("Activity")]
+        public async Task<IActionResult> AddActivity(string activity)
+        {
+            var newActivity = new WaqfActivity() { Name = activity };
+            var changes = await _activityRepo.Add(newActivity);
+            if(changes> 0)
+                return Ok();
+            return BadRequest();
+
+        }
+
         #endregion
 
     }

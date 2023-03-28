@@ -19,9 +19,9 @@ namespace Dawam.DAL.Entities
         public City WaqfCity { get; set; }
         public int? CityId { get; set; }
         public WaqfType WaqfType { get; set; }
-        public int? TypeId { get; set; }
+        public int? WaqfTypeId { get; set; }
         public WaqfActivity WaqfActivity { get; set; }
-        public int? ActivityId { get; set; }
+        public int? WaqfActivityId { get; set; }
         public string ImageUrl { get; set; }
         public string DocumentUrl { get; set; }
         public WaqfStatus WaqfStatus { get; set; }

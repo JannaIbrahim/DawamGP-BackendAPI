@@ -19,6 +19,8 @@ namespace Dawam.BLL.Repositories
         {
             _context = context;
         }
+
+
         public async Task<IReadOnlyList<T>> GetAllAsync()
         => await _context.Set<T>().ToListAsync();
 
@@ -36,5 +38,13 @@ namespace Dawam.BLL.Repositories
         }
 
         private IQueryable<T> ApplySpecification(ISpecification<T> spec) => SpecificationsEvaluator<T>.GetQuery(_context.Set<T>(), spec);
+            
+        public async Task<int> Add(T entity)
+        {
+            await _context.AddAsync(entity);
+            return await _context.SaveChangesAsync();
+
+        }
+
     }
 }

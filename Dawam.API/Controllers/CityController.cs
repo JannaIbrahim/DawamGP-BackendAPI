@@ -27,5 +27,16 @@ namespace Dawam.API.Controllers
 
             return Ok(cities);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddActivity(string name, int countryId)
+        {
+            var newCity = new City() { Name = name, CountryId = countryId };
+            var changes = await _cityRepo.Add(newCity);
+            if (changes > 0)
+                return Ok();
+            return BadRequest();
+
+        }
     }
 }

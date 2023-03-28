@@ -13,6 +13,7 @@ namespace Dawam.BLL.Interfaces
         Task<IReadOnlyList<T>> GetAllAsync();
         Task<T> GetByIdAsync(int id);
         Task<T> GetByIdWithSpecAsync(ISpecification<T> spec);
-        Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecification<T> spec); 
+        Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecification<T> spec);
+        Task<int> Add(T entity);
     }
 }
