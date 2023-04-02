@@ -10,7 +10,7 @@ namespace Dawam.DAL.Entities
     {
         public string WaqfName { get; set; }
         public string FounderName { get; set; }
-        public int DocumentNumber { get; set; }
+        public int? DocumentNumber { get; set; }
         public DateTime? EstablishmentDate { get; set; }
         public DateTime? EstablishmentDateH { get; set; }
         public string WaqfDescription { get; set; }
@@ -26,6 +26,7 @@ namespace Dawam.DAL.Entities
         public string DocumentUrl { get; set; }
         public WaqfStatus WaqfStatus { get; set; }
         public int WaqfStatusId { get; set; }
+        public string AdminNotes { get; set; }
         public User InsUser { get; set; }
         public int InsUserId { get; set; }
         public DateTime InsDate { get; set; }

@@ -118,6 +118,9 @@ namespace Dawam.DAL.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("AdminNotes")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("CityId")
                         .HasColumnType("int");
 
@@ -130,7 +133,7 @@ namespace Dawam.DAL.Data.Migrations
                     b.Property<int?>("CountryId")
                         .HasColumnType("int");
 
-                    b.Property<int>("DocumentNumber")
+                    b.Property<int?>("DocumentNumber")
                         .HasColumnType("int");
 
                     b.Property<string>("DocumentUrl")

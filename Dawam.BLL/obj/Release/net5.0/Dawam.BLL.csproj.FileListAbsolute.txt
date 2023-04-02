@@ -1,0 +1,15 @@
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\bin\Release\net5.0\Dawam.BLL.deps.json
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\bin\Release\net5.0\Dawam.BLL.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\bin\Release\net5.0\Dawam.BLL.pdb
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\bin\Release\net5.0\Dawam.DAL.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\bin\Release\net5.0\Dawam.DAL.pdb
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\Dawam.BLL.csproj.AssemblyReference.cache
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\Dawam.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\Dawam.BLL.AssemblyInfoInputs.cache
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\Dawam.BLL.AssemblyInfo.cs
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\Dawam.BLL.csproj.CoreCompileInputs.cache
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\Dawam.BLL.csproj.CopyComplete
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\Dawam.BLL.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\refint\Dawam.BLL.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\Dawam.BLL.pdb
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.BLL\obj\Release\net5.0\ref\Dawam.BLL.dll

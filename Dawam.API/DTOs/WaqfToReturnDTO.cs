@@ -7,7 +7,7 @@ namespace Dawam.API.DTOs
         public int Id { get; set; }
         public string WaqfName { get; set; }
         public string FounderName { get; set; }
-        public int DocumentNumber { get; set; }
+        public int? DocumentNumber { get; set; }
         public DateTime? EstablishmentDate { get; set; }
         public DateTime? EstablishmentDateH { get; set; }
         public string WaqfDescription { get; set; }
@@ -18,6 +18,7 @@ namespace Dawam.API.DTOs
         public string ImageUrl { get; set; }
         public string DocumentUrl { get; set; }
         public string WaqfStatus { get; set; }
+        public string AdminNotes { get; set; }
         public string InsUser { get; set; }
         public int InsUserId { get; set; }
         public DateTime InsDate { get; set; }

@@ -46,5 +46,10 @@ namespace Dawam.BLL.Repositories
 
         }
 
+        public Task<int> Update(T entity)
+        {
+            _context.Update(entity);
+            return  _context.SaveChangesAsync();
+        }
     }
 }

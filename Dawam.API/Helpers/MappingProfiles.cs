@@ -17,6 +17,11 @@ namespace Dawam.API.Helpers
                 .ForMember(d => d.InsUser, o => o.MapFrom(s => s.InsUser.Name))
                 .ForMember(d => d.ConfirmUser, o => o.MapFrom(s => s.ConfirmUser.Name));
 
+            CreateMap<WaqfToAddDTO, Waqf>()
+                .ForMember(d => d.CountryId, o => o.MapFrom(s => s.WaqfCountryId))
+                .ForMember(d => d.CityId, o => o.MapFrom(s => s.WaqfCityId));
+
+
         }
     }
 }
