@@ -132,7 +132,7 @@ namespace Dawam.API.Controllers
         }
 
         #region status control
-        [HttpPut("/status")]
+        [HttpPut("Status")]
         public async Task<ActionResult> UpdateWaqfStatus(int waqfId, int statusId)
         {
             var waqf = await _waqfRepo.GetByIdAsync(waqfId);
@@ -146,7 +146,7 @@ namespace Dawam.API.Controllers
 
 
         }
-        [HttpPut("/Confirm")]
+        [HttpPut("Confirm")]
         public async Task<ActionResult> ConfirmWaqf(int waqfId, int ConfirmUserId)
         {
             var waqf = await _waqfRepo.GetByIdAsync(waqfId);
@@ -162,7 +162,7 @@ namespace Dawam.API.Controllers
 
 
         }
-        [HttpPut("/Decline")]
+        [HttpPut("Decline")]
         public async Task<ActionResult> DeclineWaqf(int waqfId, int ConfirmUserId)
         {
             var waqf = await _waqfRepo.GetByIdAsync(waqfId);
