@@ -16,6 +16,7 @@ namespace Dawam.BLL.Specifications
             AddIncludes(w => w.WaqfCity);
             AddIncludes(w => w.WaqfType);
             AddIncludes(w => w.WaqfActivity);
+            AddIncludes(w => w.WaqfStatus);
             AddIncludes(w => w.InsUser);
             AddIncludes(w => w.ConfirmUser);
             
@@ -28,6 +29,11 @@ namespace Dawam.BLL.Specifications
             AddIncludes(w => w.WaqfCity);
             AddIncludes(w => w.WaqfType);
             AddIncludes(w => w.WaqfActivity);
+            AddIncludes(w => w.WaqfStatus);
+            AddIncludes(w => w.InsUser);
+            AddIncludes(w => w.ConfirmUser);
+
+
 
 
         }
