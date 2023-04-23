@@ -1,4 +1,5 @@
 ﻿using Dawam.BLL.Interfaces;
+using Dawam.BLL.Specifications;
 using Dawam.DAL.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,9 @@ namespace Dawam.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IReadOnlyList<Country>>> GetCountries()
         {
-            var countries = await _countryRepo.GetAllAsync();
+            var spec = new BaseSpecification<Country>();
+            spec.AddOrderBy(c => c.Name);
+            var countries = await _countryRepo.GetAllWithSpecAsync(spec);
             return Ok(countries);
         }
 

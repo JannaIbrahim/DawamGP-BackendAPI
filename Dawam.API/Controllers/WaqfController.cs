@@ -34,6 +34,7 @@ namespace Dawam.API.Controllers
         public async Task<ActionResult<IReadOnlyList<WaqfToReturnDTO>>> GetWaqfs()
         {
             var spec = new WaqfWithCountryCityTypeActivitySpecification();
+            spec.AddOrderBy(W => W.WaqfName);
             var waqfs = await _waqfRepo.GetAllWithSpecAsync(spec);
             var data = _mapper.Map<IReadOnlyList<Waqf>, IReadOnlyList<WaqfToReturnDTO>>(waqfs);
             return Ok(data);

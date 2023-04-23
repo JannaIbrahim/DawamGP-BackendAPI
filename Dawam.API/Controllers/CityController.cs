@@ -23,6 +23,7 @@ namespace Dawam.API.Controllers
         public async Task<ActionResult<IReadOnlyList<City>>> GetCitiesByCountryId(int id)
         {
             var spec = new BaseSpecification<City>(c => c.CountryId == id);
+            spec.AddOrderBy(c => c.Name);
             var cities = await _cityRepo.GetAllWithSpecAsync(spec);
 
             return Ok(cities);
