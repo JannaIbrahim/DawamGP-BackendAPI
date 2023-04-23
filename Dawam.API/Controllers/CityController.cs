@@ -1,4 +1,6 @@
-﻿using Dawam.BLL.Interfaces;
+﻿using AutoMapper;
+using Dawam.API.DTOs;
+using Dawam.BLL.Interfaces;
 using Dawam.BLL.Specifications;
 using Dawam.DAL.Entities;
 using Microsoft.AspNetCore.Http;
@@ -13,20 +15,23 @@ namespace Dawam.API.Controllers
     public class CityController : BaseApiController
     {
         private readonly IGenericRepository<City> _cityRepo;
+        private readonly IMapper _mapper;
 
-        public CityController(IGenericRepository<City> cityRepo)
+        public CityController(IGenericRepository<City> cityRepo, IMapper mapper)
         {
             _cityRepo = cityRepo;
+            _mapper = mapper;
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<IReadOnlyList<City>>> GetCitiesByCountryId(int id)
+        public async Task<ActionResult<IReadOnlyList<CityDTO>>> GetCitiesByCountryId(int id)
         {
             var spec = new BaseSpecification<City>(c => c.CountryId == id);
             spec.AddOrderBy(c => c.Name);
             var cities = await _cityRepo.GetAllWithSpecAsync(spec);
+            var data = _mapper.Map<IReadOnlyList<City>, IReadOnlyList<CityDTO>>(cities);
 
-            return Ok(cities);
+            return Ok(data);
         }
 
         [HttpPost]

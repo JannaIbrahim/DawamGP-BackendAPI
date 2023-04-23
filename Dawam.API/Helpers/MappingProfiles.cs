@@ -21,6 +21,8 @@ namespace Dawam.API.Helpers
                 .ForMember(d => d.CountryId, o => o.MapFrom(s => s.WaqfCountryId))
                 .ForMember(d => d.CityId, o => o.MapFrom(s => s.WaqfCityId));
 
+            CreateMap<City, CityDTO>();
+
 
         }
     }
