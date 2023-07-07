@@ -68,3 +68,12 @@ D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\De
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\AWSSDK.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\AWSSDK.S3.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\Common.Logging.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\Common.Logging.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\Google.Protobuf.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\Ipfs.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\Ipfs.Http.Client.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Debug\net5.0\SimpleBase.dll

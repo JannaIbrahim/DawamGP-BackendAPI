@@ -23,6 +23,7 @@ namespace Dawam.DAL.Data
         public DbSet<Country> Countries { get; set; }
         public DbSet<City> Cities { get; set; }
 
+        public DbSet<vw_waqfSearch> WaqfSearches { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -33,6 +34,13 @@ namespace Dawam.DAL.Data
             modelBuilder.Entity<Country>().Property(c => c.Name).IsRequired();
             modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique();
             modelBuilder.Entity<City>().Property(c => c.Name).IsRequired();
+        }
+
+        public virtual IQueryable<vw_waqfSearch> WaqfSearchSP(string searchTxt)
+        {
+            return WaqfSearches.FromSqlRaw($"EXECUTE dbo.sp_WaqfSearch '{searchTxt}'").AsNoTracking();
+
+
         }
 
 

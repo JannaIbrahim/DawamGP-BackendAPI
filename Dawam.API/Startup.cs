@@ -1,7 +1,9 @@
 using Dawam.API.Helpers;
 using Dawam.BLL.Interfaces;
 using Dawam.BLL.Repositories;
+using Dawam.BLL.Services;
 using Dawam.DAL.Data;
+using Ipfs.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -43,12 +45,32 @@ namespace Dawam.API
             });
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(typeof(MappingProfiles));
+            services.AddScoped<IWaqfReopsitory, WaqfRepository>();
+            services.AddSingleton<IpfsClient>(new IpfsClient("https://ipfs.infura.io:5001"));
+            services.AddScoped<IIpfsService, IpfsService>();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowReactLocalhost",
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:3000") // dashboard local hosts
+                                             .AllowAnyHeader()
+                                             .AllowAnyMethod();
+                                  });
+            });
+
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll",
                     builder => builder.AllowAnyOrigin()
                     .AllowAnyMethod()
                     .AllowAnyHeader());
+            });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins",
+                    builder => builder.AllowAnyOrigin());
             });
         }
 
@@ -68,12 +90,18 @@ namespace Dawam.API
 
             app.UseAuthorization();
 
+            app.UseCors("AllowReactLocalhost");
             app.UseCors("AllowAll");
+            app.UseCors("AllowAllOrigins");
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+
+            //last middleware to allow images access
+            app.UseStaticFiles();
         }
     }
 }

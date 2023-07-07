@@ -51,5 +51,11 @@ namespace Dawam.BLL.Repositories
             _context.Update(entity);
             return  _context.SaveChangesAsync();
         }
+
+        public Task<int> Delete(T entity)
+        {
+            _context.Remove(entity);
+            return _context.SaveChangesAsync();
+        }
     }
 }

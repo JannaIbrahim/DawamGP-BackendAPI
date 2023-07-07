@@ -13,6 +13,7 @@
     <SourceRoot Include="C:\Users\JannaPC\.nuget\packages\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\JannaPC\.nuget\packages\newtonsoft.json\10.0.1</PkgNewtonsoft_Json>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\JannaPC\.nuget\packages\awssdk.core\3.7.107.11</PkgAWSSDK_Core>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\JannaPC\.nuget\packages\awssdk.s3\3.7.107.2</PkgAWSSDK_S3>
   </PropertyGroup>
 </Project>

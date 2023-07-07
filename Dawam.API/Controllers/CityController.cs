@@ -44,5 +44,19 @@ namespace Dawam.API.Controllers
             return BadRequest();
 
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteCity(int cityId)
+        {
+            var country = await _cityRepo.GetByIdAsync(cityId);
+
+            var changes = await _cityRepo.Delete(country);
+
+            if (changes > 0)
+                return Ok();
+
+            return BadRequest();
+
+        }
     }
 }

@@ -36,13 +36,27 @@ namespace Dawam.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddActivity(string country)
+        public async Task<IActionResult> AddCountry(string country)
         {
             var newCountry = new Country() { Name = country};
             
             var changes = await _countryRepo.Add(newCountry);
             if (changes > 0)
                 return Ok();
+            return BadRequest();
+
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult>DeleteCountry(int countryId)
+        {
+            var country = await _countryRepo.GetByIdAsync(countryId);
+
+            var changes = await _countryRepo.Delete(country);
+
+            if (changes > 0)
+                return Ok();
+
             return BadRequest();
 
         }

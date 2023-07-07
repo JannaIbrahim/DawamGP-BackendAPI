@@ -23,6 +23,7 @@ namespace Dawam.API.Helpers
 
             CreateMap<City, CityDTO>();
 
+            CreateMap<vw_waqfSearch, WaqfToReturnDTO>();
 
         }
     }

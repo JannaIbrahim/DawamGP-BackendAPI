@@ -1,7 +1,10 @@
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Dawam.API.exe
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\wwwroot\waqfDocuments\0Saify q.pdf
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\wwwroot\waqfDocuments\0Saifyq.pdf
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\wwwroot\waqfDocuments\0WaqfQaytbay.pdf
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\wwwroot\waqfDocuments\WaqfQaytbay.pdf
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\wwwroot\waqfImages\0qaytbay.jpg
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\wwwroot\waqfImages\0Saify.jpg
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\wwwroot\waqfImages\qaytbay.jpg
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\appsettings.json

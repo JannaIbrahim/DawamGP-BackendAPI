@@ -16,5 +16,7 @@ namespace Dawam.BLL.Interfaces
         Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecification<T> spec);
         Task<int> Add(T entity);
         Task<int> Update(T entity);
+        Task<int> Delete(T entity);
+
     }
 }
