@@ -43,6 +43,7 @@ namespace Dawam.API
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(typeof(MappingProfiles));
             services.AddScoped<IWaqfReopsitory, WaqfRepository>();
@@ -87,7 +88,23 @@ namespace Dawam.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.Use(async (context, next) =>
+            {
+                context.Response.Headers.Add("Access-Control-Allow-Origin", context.Request.Headers["Origin"]);
+                context.Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+                context.Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Authorization");
+                context.Response.Headers.Add("Access-Control-Allow-Credentials", "true");
 
+                if (context.Request.Method == "OPTIONS")
+                {
+                    context.Response.StatusCode = 200;
+                    await context.Response.CompleteAsync();
+                }
+                else
+                {
+                    await next();
+                }
+            });
             app.UseAuthorization();
 
             app.UseCors("AllowReactLocalhost");

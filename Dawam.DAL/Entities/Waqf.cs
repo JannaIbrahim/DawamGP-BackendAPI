@@ -33,6 +33,8 @@ namespace Dawam.DAL.Entities
         public User ConfirmUser { get; set; }
         public int? ConfirmUserId { get; set; }
         public DateTime? ConfirmDate { get; set; }
+        //public string WaqfTransactionHash { get; set; }
+        //public string WaqfNFTId { get; set; }
 
 
     }

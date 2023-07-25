@@ -13,6 +13,13 @@ D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Re
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Dawam.API.pdb
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\AutoMapper.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\AWSSDK.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\AWSSDK.S3.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Common.Logging.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Common.Logging.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Google.Protobuf.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Ipfs.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Ipfs.Http.Client.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -30,6 +37,8 @@ D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Re
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\BouncyCastle.Crypto.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\SimpleBase.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

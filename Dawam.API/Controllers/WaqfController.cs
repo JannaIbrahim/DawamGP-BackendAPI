@@ -106,6 +106,9 @@ namespace Dawam.API.Controllers
                 using (var stream = new FileStream(documentFilePath, FileMode.Create))
                     await waqf.WaqfDocument.CopyToAsync(stream);
                 newWaqf.DocumentUrl = $"/waqfDocuments/{documentFileName}";
+            }else if(waqf.WaqfDocument == null)
+            {
+                newWaqf.DocumentUrl = "";
             }
 
             var changes = await _waqfRepo.Add(newWaqf);
@@ -113,7 +116,7 @@ namespace Dawam.API.Controllers
             if (changes! > 0)
                 return Ok();
 
-            return BadRequest();
+            return BadRequest("couldn't add waqf");
 
 
 
@@ -290,7 +293,6 @@ namespace Dawam.API.Controllers
 
         #region IPFS management
         [HttpPost("upload-pdf")]
-        //public async Task<IActionResult> UploadPdf(IFormFile pdfFile)
         public async Task<ActionResult<string>> UploadPdf(int waqfId)
         {
             var spec = new WaqfWithCountryCityTypeActivitySpecification(w => w.Id == waqfId);
@@ -308,28 +310,6 @@ namespace Dawam.API.Controllers
                 var ipfsHash = await _ipfsService.UploadToIpfs(pdfStream);
                 return Ok(ipfsHash);
             }
-
-            //var waqfDocumentFile = new I ;
-
-            //using (var client = new HttpClient())
-            //{
-            //    var fileUrl = Baseurl + waqf.DocumentUrl;
-            //    var document = await client.GetAsync(fileUrl);
-
-            //    if (!document.IsSuccessStatusCode)
-            //        return BadRequest("Unable to access waqf document");
-
-            //    using (var stream = await document.Content.ReadAsStreamAsync())
-            //    {
-
-            //    }
-
-            //}
-            //using (var pdfStream = stream.OpenReadStream())
-            //{
-            //    var ipfsHash = await _ipfsService.UploadToIpfs(pdfStream);
-            //    return Ok(ipfsHash);
-            //}
 
 
         }

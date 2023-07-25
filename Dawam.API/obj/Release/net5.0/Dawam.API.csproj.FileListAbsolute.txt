@@ -68,3 +68,12 @@ D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Re
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\Dawam.API.pdb
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\Dawam.API.genruntimeconfig.cache
 D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\obj\Release\net5.0\ref\Dawam.API.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\AWSSDK.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\AWSSDK.S3.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\Common.Logging.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\Common.Logging.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\Google.Protobuf.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\Ipfs.Core.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\Ipfs.Http.Client.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\BouncyCastle.Crypto.dll
+D:\Learning\Universty\GraduationProject\Code\BackEnd\DawamGPAPI\Dawam.API\bin\Release\net5.0\SimpleBase.dll
